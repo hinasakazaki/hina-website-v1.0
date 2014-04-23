@@ -1,0 +1,83 @@
+body {
+	font-family: 'Gentium Book Basic', serif;
+	margin: 0;
+	height: 100%; 
+	font-size: 20;
+}
+
+#colors {
+	background-color: #f57a7a;
+	/*pink*/
+	background-color: #ebe4e8; 
+	/*gray-ish purple*/
+	color: #d4c5d4;
+	/*lavendar*/
+	color: #ba3747;
+	/*reddish*/
+	color: #fac461;
+	/*yellow*/
+	color: #dbc5ba;
+	/*brown?*/
+}
+
+#header {
+	font-family: 'Oswald', sans-serif;
+	color: #ebe4e8; 
+	position: fixed;
+	display:inline-block;
+	width:100%;
+	background-color: #f57a7a;
+	padding:20 25;
+}
+
+#nameplate {
+	float: left;
+	padding-left:50;
+	padding-top: 25;
+	padding-bottom: 25;
+	font-size: 72;	
+}
+#nameplate a {
+	text-decoration: none;
+	color:inherit;
+}
+#nameplate:hover {
+	color: #fac461;
+}
+
+#menu { 
+	color:#ba3747;
+	position: relative;
+	display:inline-block;
+	float: left;
+	padding-left:150;
+	padding-top:25;
+	width:100px;
+	height:100%;
+}
+
+#menu-item {
+	width:100px;
+	display:inline-block;
+	padding-right: 50px;
+	font:50px;
+}
+#menu-item:hover {
+	color:#fac461;
+}
+#menu-item a {
+	text-decoration: none;
+	color:inherit;
+}
+
+#content {
+	top: 250px;
+	margin:20;
+	position:relative;
+}
+#paragraph {
+	background-color: #fac461;
+	padding: 25px 50px 25px;
+	display:inline-block;
+
+}
