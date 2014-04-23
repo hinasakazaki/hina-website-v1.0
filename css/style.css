@@ -71,10 +71,27 @@ body {
 }
 
 #content {
-	top: 250px;
-	margin:20;
-	position:relative;
+	padding-top:200px;
+	width:100%;
+	height:100%;
 }
+
+.button {
+	text-align: center;
+	padding:10px;
+	border-radius: 10;
+	background-color: #ba3747;
+	color:#dbc5ba;
+	margin-left: 10px;
+}
+.button a {
+	text-decoration: none;
+	color:inherit;
+}
+.button:hover {
+	color: #f57a7a;
+}
+
 #paragraph {
 	background-color: #fac461;
 	padding: 25px 50px 25px;

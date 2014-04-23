@@ -1,0 +1,31 @@
+
+#comic {
+	padding-top:200;
+	width:100%;
+	text-align: center;
+	height:100%;
+	vertical-align: center;
+}
+
+#frame {
+
+}
+
+#caption {
+	padding:20px;
+}
+#comic-nav-bar {
+
+	width:100%;
+	vertical-align: center;
+}
+
+
+
+
+#about {
+	background-color: #d4c5d4;
+	color:#e35e39;
+	width:100%;
+	padding:30px;
+}

@@ -1,0 +1,60 @@
+
+#foto {
+    position:fixed;
+    padding-top:200;
+    width:100%;
+    text-align: center;
+    height:100%;
+    vertical-align: center;
+}
+
+#thumbnail-bar {
+    width:100%;
+    padding: 10px;
+
+}
+
+.thumbnail {
+    display: inline-block;
+    height: 100px;
+    opacity: 0.75;
+    width: 140px;
+}
+.thumbnail.active {
+    opacity: 1;
+}
+.thumbnail-large {
+    display: none;
+}
+img.scaled {
+    height: 100%;
+    width: 100%;
+}
+#large-img {
+   display:inline-block;
+    border: 1px solid #eee;
+    height: 440px;
+    width: 660px;
+}
+
+#caption {
+    display:inline-block;
+    text-align: center;
+}
+
+
+.button {
+    text-align: center;
+    padding:10px;
+    border-radius: 10;
+    background-color: #ba3747;
+    color:#dbc5ba;
+    margin-left: 10px;
+}
+.button a {
+    text-decoration: none;
+    color:inherit;
+}
+.button:hover {
+    color: #f57a7a;
+}
