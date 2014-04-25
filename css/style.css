@@ -152,6 +152,9 @@ body {
 }
 
 .paragraph {
+	width: 400;
+	margin-top:20;
+	margin-bottom:20;
 	font-size:20;
 	margin-left: 50;
 	margin-right:50;
@@ -160,14 +163,26 @@ body {
 }
 
 #hi {
+	padding-top:10;
 	margin-left:50;
 	margin-right:50;
-	font-weight:50;
-	font-size:100;
+	font-size:70;
 }
 
-#image-circle {
-	border-radius: 50%;
-	padding: 20 20 20;
+#hina-img-wrapper {
+	display:inline-block;
+	position: static;
+	padding: 20 20;
+}
 
+.link {
+	display:inline-block;
+	color: #dbc5ba;
+}
+.link a {
+	text-decoration: none;
+	color:inherit;
+}
+.link:hover{
+	color:#f57a7a ;
 }
