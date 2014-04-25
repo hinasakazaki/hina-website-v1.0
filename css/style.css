@@ -21,6 +21,7 @@ body {
 }
 
 #header {
+	font-size:20;
 	z-index:2;
 	font-family: 'Oswald', sans-serif;
 	color: #ebe4e8; 
@@ -82,7 +83,6 @@ body {
 	width:100px;
 	display:inline-block;
 	padding-right: 50px;
-	font:50px;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
@@ -152,6 +152,7 @@ body {
 }
 
 .paragraph {
+	font-size:20;
 	margin-left: 50;
 	margin-right:50;
 	display:inline-block;
@@ -159,11 +160,14 @@ body {
 }
 
 #hi {
+	margin-left:50;
+	margin-right:50;
 	font-weight:50;
 	font-size:100;
 }
 
 #image-circle {
 	border-radius: 50%;
+	padding: 20 20 20;
 
 }
