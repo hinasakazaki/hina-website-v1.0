@@ -17,8 +17,7 @@ $(document).ready(function() {
 
     $('#hina-img').hover(function(){
         $('#hina-img').attr('src', 'img/hina.gif');
-        $('#hina-img').attr('height', '300');
-        $('#hina-img').attr('width', '230');
+       
         $('#hina-img').text("SWAG!");
     });
 
