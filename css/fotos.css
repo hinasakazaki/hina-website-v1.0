@@ -1,12 +1,35 @@
 
 #foto {
-    position:fixed;
-    padding-top:200;
+    position:relative;
+    top:200;
     width:100%;
     text-align: center;
     height:100%;
     vertical-align: center;
 }
+
+#button-container {
+    vertical-align: center;
+    text-align: center;
+    padding-left:500;
+}
+#button {
+    vertical-align: center;
+    text-align: center;
+    width:150;
+    padding:10px;
+    border-radius: 10;
+    background-color: #ba3747;
+    color:#dbc5ba;
+}
+#button a {
+    text-decoration: none;
+    color:inherit;
+}
+#button:hover {
+    color: #f57a7a;
+}
+
 
 #thumbnail-bar {
     width:100%;
@@ -19,6 +42,10 @@
     height: 100px;
     opacity: 0.75;
     width: 140px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;   
+}
 }
 .thumbnail.active {
     opacity: 1;
@@ -35,26 +62,20 @@ img.scaled {
     border: 1px solid #eee;
     height: 440px;
     width: 660px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;   
+}
 }
 
 #caption {
-    display:inline-block;
+    vertical-align;
+    display: inline-block;
     text-align: center;
 }
 
+#header {
+    z-index:2;
+}
 
-.button {
-    text-align: center;
-    padding:10px;
-    border-radius: 10;
-    background-color: #ba3747;
-    color:#dbc5ba;
-    margin-left: 10px;
-}
-.button a {
-    text-decoration: none;
-    color:inherit;
-}
-.button:hover {
-    color: #f57a7a;
-}
+

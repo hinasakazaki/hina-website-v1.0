@@ -3,11 +3,12 @@
 	padding-top:200;
 	width:100%;
 	text-align: center;
-	height:100%;
 	vertical-align: center;
+	padding-bottom:50;
 }
 
 #frame {
+
 
 }
 
@@ -21,11 +22,41 @@
 }
 
 
+#button {
+	text-align: center;
+	padding:10px;
+	border-radius: 10;
+	background-color: #ba3747;
+	color:#dbc5ba;
+	margin-left: 10px;
+	width:100;
+	display:inline-block;
+}
+#button a {
+	text-decoration: none;
+	color:inherit;
+}
+#button:hover {
+	color: #f57a7a;
+}
+
+
 
 
 #about {
 	background-color: #d4c5d4;
 	color:#e35e39;
+	position:relative;
 	width:100%;
-	padding:30px;
+	margin:20 20 20;
+	height: 5000;
+}
+
+#about-text {
+	position:relative;
+	background-color: yellow;
+	color:#dbc5ba;
+	width:100%;
+	height:20;
+	margin:50 50 50;
 }

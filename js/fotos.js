@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+
     $('.thumbnail').hover(function() {
         /* Actions on thumbnail */
         $('.thumbnail').removeClass('active');
@@ -11,4 +13,7 @@ $(document).ready(function() {
     $('.thumbnail:first').addClass('active');
     $('#large-img').find('img').attr('src', 'https://farm8.staticflickr.com/7327/13484724834_12c708d8c5.jpg');
 
+
+
+    
 });

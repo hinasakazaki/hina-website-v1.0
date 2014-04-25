@@ -21,6 +21,7 @@ body {
 }
 
 #header {
+	z-index:2;
 	font-family: 'Oswald', sans-serif;
 	color: #ebe4e8; 
 	position: fixed;
@@ -30,13 +31,33 @@ body {
 	padding:20 25;
 }
 
+
+#header2 {
+	font-family: 'Oswald', sans-serif;
+	color: #ebe4e8; 
+	position: fixed;
+	display:inline-block;
+	width:100%;
+	background-color: #f57a7a;
+	padding:20 25;
+	height:20px;
+}
+
 #nameplate {
 	float: left;
 	padding-left:50;
 	padding-top: 25;
 	padding-bottom: 25;
-	font-size: 72;	
+	font-size: 72;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;	
 }
+
+#nameplate.scrolled{
+	font-size:20px;
+}
+
 #nameplate a {
 	text-decoration: none;
 	color:inherit;
@@ -56,18 +77,47 @@ body {
 	height:100%;
 }
 
-#menu-item {
+
+.menu-item {
 	width:100px;
 	display:inline-block;
 	padding-right: 50px;
 	font:50px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
 }
-#menu-item:hover {
+.menu-item:hover {
 	color:#fac461;
 }
-#menu-item a {
+
+.menu-item a {
 	text-decoration: none;
 	color:inherit;
+}
+
+.menu-item2 {
+	margin-left: 40;
+	padding: 0 20 0;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	display:inline-block;
+	left: 20;
+}
+.menu-item2:hover {
+	color:#fac461;
+}
+
+.menu-item2 a {
+	text-decoration: none;
+	color:inherit;
+}
+
+
+
+.menu-item.scrolled{
+	font:25px;
 }
 
 #content {
