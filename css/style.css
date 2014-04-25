@@ -114,12 +114,25 @@ body {
 	color:inherit;
 }
 
-#content {
-	padding-top:200px;
+
+#yellow {
+	padding-top:300px;
 	width:100%;
-	height:100%;
-	margin-left: 50;
-	margin-right:50;
+	height:500;
+	background-color: #fac461;
+}
+
+#red {
+	width:100%;
+	height:500;
+	color:#ebe4e8;
+	background-color: #ba3747;
+}
+
+#lavendar {
+	width:100%;
+	height:500;
+	background-color: #ebe4e8;
 }
 
 .button {
@@ -138,9 +151,19 @@ body {
 	color: #f57a7a;
 }
 
-#paragraph {
-	background-color: #fac461;
-	padding: 25px 50px 25px;
+.paragraph {
+	margin-left: 50;
+	margin-right:50;
 	display:inline-block;
+
+}
+
+#hi {
+	font-weight:50;
+	font-size:100;
+}
+
+#image-circle {
+	border-radius: 50%;
 
 }
