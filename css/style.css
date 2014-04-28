@@ -136,21 +136,6 @@ body {
 	color: black;
 }
 
-.button {
-	text-align: center;
-	padding:10px;
-	border-radius: 10;
-	background-color: #ba3747;
-	color:#dbc5ba;
-	margin-left: 10px;
-}
-.button a {
-	text-decoration: none;
-	color:inherit;
-}
-.button:hover {
-	color: #f57a7a;
-}
 
 .paragraph {
 	width: 400;
@@ -186,4 +171,13 @@ body {
 }
 .link:hover{
 	color:#f57a7a ;
+}
+
+#secret {
+	background-color:#ba3747;
+	padding: 20 20;
+}
+
+#answer {
+
 }

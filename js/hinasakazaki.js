@@ -30,5 +30,9 @@ $(document).ready(function() {
             $('#header2').show();
         }
     });
+
+    $('#secret').click(function() {
+        $('#secret').append("lol");
+    });
         
 });

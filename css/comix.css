@@ -21,23 +21,32 @@
 	vertical-align: center;
 }
 
+#prev {
 
+}
 #button {
-	text-align: center;
-	padding:10px;
-	border-radius: 10;
-	background-color: #ba3747;
-	color:#dbc5ba;
-	margin-left: 10px;
-	width:100;
-	display:inline-block;
+    vertical-align: center;
+    text-align: center;
+    width:150;
+    padding:5px;
+    border-radius: 5;
+    background-color: #ba3747;
+    color:#dbc5ba;
+    display:inline-block;
 }
 #button a {
-	text-decoration: none;
-	color:inherit;
+    text-decoration: none;
+    color:inherit;
 }
 #button:hover {
-	color: #f57a7a;
+    color: #f57a7a;
+}
+
+
+#thumbnail-bar {
+    width:100%;
+    padding: 10px;
+
 }
 
 #about {

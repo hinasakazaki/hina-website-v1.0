@@ -20,8 +20,9 @@ $(document).ready(function() {
         return (currPage/2);
     });
 
-    $('#prev').click(function() {
-       $('#frame').find('img').attr('src', 'img/comix/' + getPrev(currPage) +'.png');
+    $('.button').click(function() {
+        alert("Your book is overdue");
+       //$('#frame').find('img').attr('src', 'img/comix/' + getPrev(currPage) +'.png');
     });
 
     $('#random').click(function() {
