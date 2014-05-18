@@ -22,7 +22,7 @@ body {
 
 #header {
 	font-size:20;
-	z-index:2;
+	z-index:5;
 	font-family: 'Oswald', sans-serif;
 	color: #ebe4e8; 
 	position: fixed;
@@ -34,6 +34,7 @@ body {
 
 
 #header2 {
+	z-index:4;
 	font-family: 'Oswald', sans-serif;
 	color: #ebe4e8; 
 	position: fixed;
@@ -126,15 +127,14 @@ body {
 }
 
 #box-wrapper {
+	font-size:50;
+	font-family: 'Oswald', sans-serif;
 	padding-top:210;
 	margin-left:50;
 	display:inline-block;
 }
 
 .red-block {
-	
-	font-size:50;
-	font-family: 'Oswald', sans-serif;
 	background-color: #ba3747;
 	width:300px;
 	height:300px;
@@ -154,23 +154,24 @@ body {
 }
 .redtext{
 	transition: opacity 0.15s linear;
-	opacity:0.5;
 	position: absolute;
 	text-align:center;
 	width:300px;
 	height:300px;
 	display:none;
-	z-index:1;
+	z-index:2;
 }
 
 .red-block:hover .redtext{
 	display:block;
 }
 
-#hinerz {
+.hinerz {
 	position:absolute;
-	z-index:2;
-
+	z-index:1;
+}
+.hinerz:hover {
+	opacity:0.5;
 }
 
 .yellow-block {
@@ -191,6 +192,20 @@ body {
 .yellow-block:hover{
 	background-color: #d4c5d4;
 }
+.yellowtext{
+	transition: opacity 0.15s linear;
+	position: absolute;
+	text-align:center;
+	width:300px;
+	height:300px;
+	display:none;
+	z-index:2;
+}
+
+.yellow-block:hover .yellowtext{
+	display:block;
+}
+
 
 
 .pink-block { 
@@ -212,6 +227,21 @@ body {
 	background-color: #ebe4e8;
 }
 
+.pinktext{
+	transition: opacity 0.15s linear;
+	position: absolute;
+	text-align:center;
+	width:300px;
+	height:300px;
+	display:none;
+	z-index:2;
+}
+
+.pink-block:hover .pinktext{
+	display:block;
+}
+
+
 
 #brown {
 	background-color: #f6f0ee;
@@ -226,13 +256,14 @@ body {
 }
 
 #footer {
-	position: fixed;
-	background-color: #f57a7a;
+	background-color: #ebe4e8;
 	width:100%;
-    padding-top:10;
+	padding-top:10;
     padding-bottom:10;
    	padding-left:50;
-   	color:  s#ba3747;
+   	color: #ba3747;
+   	bottom:0;
+   	z-index:5;
 }
 #hina-img-wrapper {
 	display:inline-block;
