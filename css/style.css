@@ -143,6 +143,7 @@ body {
 	transition: 0.5s;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
+	color: #ba3747;
 }
 
 .red-block a {
@@ -153,7 +154,6 @@ body {
 	background-color: #dbc5ba;
 }
 .redtext{
-	transition: opacity 0.15s linear;
 	position: absolute;
 	text-align:center;
 	width:300px;
@@ -162,6 +162,10 @@ body {
 	z-index:2;
 }
 
+.redtext a {
+	text-decoration: none;
+	color:inherit;
+}
 .red-block:hover .redtext{
 	display:block;
 }
@@ -172,6 +176,7 @@ body {
 }
 .hinerz:hover {
 	opacity:0.5;
+	filter:alpha(opacity=40);
 }
 
 .yellow-block {
@@ -193,6 +198,7 @@ body {
 	background-color: #d4c5d4;
 }
 .yellowtext{
+	color: #ba3747;
 	transition: opacity 0.15s linear;
 	position: absolute;
 	text-align:center;
@@ -205,7 +211,10 @@ body {
 .yellow-block:hover .yellowtext{
 	display:block;
 }
-
+.yellowtext a {
+	text-decoration: none;
+	color:inherit;
+}
 
 
 .pink-block { 
@@ -217,6 +226,7 @@ body {
 	transition: 0.5s;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
+	color: #ba3747;
 }
 
 .pink-block a {
@@ -235,6 +245,11 @@ body {
 	height:300px;
 	display:none;
 	z-index:2;
+}
+
+.pinktext a {
+	text-decoration: none;
+	color:inherit;
 }
 
 .pink-block:hover .pinktext{
@@ -285,4 +300,5 @@ body {
 .link:hover{
 	color: #fac461;
 }
+
 
