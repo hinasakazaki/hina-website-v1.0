@@ -8,7 +8,7 @@ $(document).ready(function() {
     });
 
     function getNext(currPage) {
-        if (currPage= mostRecentPage) {
+        if (currPage = mostRecentPage) {
             $('#prev').hide();
         }
         else {        

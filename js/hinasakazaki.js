@@ -1,24 +1,22 @@
 $(document).ready(function() {
-
-    // $('#key').click(function() {
-    //     $('#secret').show();
-    // });
-    // $('#secret').click(function() {
-    //     $('#secret').hide());
-    // });
-    
-    // $('#append').click(function() { 
-    //     $('#append').append("Hi this is more")
+    //red block text quite not working the way I want
+    // $('.red-block').hover( function(e) {
+    //     $(this).find('.block-text').addClass('block-text_opaque');
+    // }, function(e) {
+    //     $(this).find('.block-text').removeClass('block-text_opaque');
     // });
 
-    // $(window).scroll(function(){
-    //      $(‘#header’).css(‘background’, ‘#d4c5d4’).fadeOut(500).fadeIn(500); 
-    // });
+        // $('.red-block').hover(function(){
+        //    $(this).find('.votecount').addClass('votecount_opaque');
+        //  });
+        // function(){
+        //     $('.red-block').find('img').attr('src', src);
+        // });
 
-    $('#hina-img').hover(function(){
-        $('#hina-img').attr('src', 'img/hina.gif');
-       
-        $('#hina-img').text("SWAG!");
+    $('.red-block').hover(function(){
+        $('.red-block').text("Check out my Twitter @swaggerzaki");
+        $('.red-block').attr('opacity', '0.5');
+        $('.red-block').attr('src', 'img/index/swag.png');
     });
 
     $(window).scroll(function() {
@@ -31,8 +29,5 @@ $(document).ready(function() {
         }
     });
 
-    $('#secret').click(function() {
-        $('#secret').append("lol");
-    });
         
 });
