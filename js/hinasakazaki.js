@@ -13,18 +13,13 @@ $(document).ready(function() {
         //     $('.red-block').find('img').attr('src', src);
         // });
 
-    $('.votewrap').hover( function(e) {
-        $(this).find('.votecount').addClass('votecount_opaque');
-        $(this).find('.info').addClass('info_opaque');
-    }, function(e) {
-        $(this).find('.votecount').removeClass('votecount_opaque');
-        $(this).find('.info').removeClass('info_opaque');
-    });
+    $('.red-block').hover( function(e) {
+        $(this).find('.redtext').addClass('redtext_opaque');
     
-    $('.red-block').hover(function(){
-        $('.red-block').text("Check out my Twitter @swaggerzaki");
-        $('.red-block').attr('opacity', '0.5');
+    }, function(e) {
+        $(this).find('.redtext').removeClass('redtext_opaque');
         $('.red-block').attr('src', 'img/index/swag.png');
+
     });
 
     $(window).scroll(function() {
