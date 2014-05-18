@@ -1,0 +1,11 @@
+#box-wrapper {
+	float:right;
+	margin-left: 5px;
+	margin-right:10px;
+}
+
+#brown {
+	float:left;
+	margin-left:5;
+	margin-right:0;
+}
