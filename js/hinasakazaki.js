@@ -13,14 +13,15 @@ $(document).ready(function() {
         //     $('.red-block').find('img').attr('src', src);
         // });
 
-    $('.red-block').hover( function(e) {
-        $(this).find('.redtext').addClass('redtext_opaque');
+    // $('#redtext').hover(function() {
+    //     $('#redtext').css("display","inline");
+    // });
     
-    }, function(e) {
-        $(this).find('.redtext').removeClass('redtext_opaque');
-        $('.red-block').attr('src', 'img/index/swag.png');
+    // }, function(e) {
+    //     $(this).find('.redtext').removeClass('redtext_opaque');
+    //     $('.red-block').attr('src', 'img/index/swag.png');
 
-    });
+    // });
 
     $(window).scroll(function() {
         if($(document).scrollTop() > 107) {

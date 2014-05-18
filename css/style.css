@@ -132,7 +132,7 @@ body {
 }
 
 .red-block {
-	text-align:center;
+	
 	font-size:50;
 	font-family: 'Oswald', sans-serif;
 	background-color: #ba3747;
@@ -153,13 +153,26 @@ body {
 	background-color: #dbc5ba;
 }
 .redtext{
-	visibility:hidden;
 	transition: opacity 0.15s linear;
+	opacity:0.5;
+	position: absolute;
+	text-align:center;
+	width:300px;
+	height:300px;
+	display:none;
+	z-index:1;
+}
+
+.red-block:hover .redtext{
+	display:block;
+}
+
+#hinerz {
+	position:absolute;
 	z-index:2;
+
 }
-.redtext_opaque {
-	opacity: 0.5;
-}
+
 .yellow-block {
 	background-color: #fac461;
 	width:300px;
