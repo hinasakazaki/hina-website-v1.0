@@ -7,8 +7,23 @@
 	padding-bottom:50;
 }
 
-#frame {
+#frame1 {
+	width:410px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom: 10px;
+	background-color: #fac461;
+	margin-left:280;
+	border-radius: 1%
 
+}
+
+#frame {
+	margin-bottom:10px;
+	background-color: #ebe4e8;
+	padding-bottom: 10px;
+	border-radius: 5%;
+	width:400px;
 
 }
 
