@@ -33,10 +33,13 @@
 }
 
 .red-block {
+	padding-top:20;
+	text-align: center;
+	padding-left:20;
 	display:inline-block;
 	background-color: #ba3747;
-	width:150px;
-	height:150px;
+	width:130px;
+	height:130px;
 	border-radius:5%;
 	margin-bottom:10;
 	transition: 0.5s;
@@ -79,10 +82,13 @@
 }
 
 .yellow-block {
+	padding-top:20;
+	text-align: center;
+	padding-left:20;
 	display:inline-block;
 	background-color: #fac461;
-	width:150px;
-	height:150px;
+	width:130px;
+	height:130px;
 	border-radius:5%;
 	margin-bottom:10;
 	transition: 0.5s;
@@ -118,10 +124,13 @@
 
 
 .pink-block { 
+	padding-top:20;
+	text-align: center;
+	padding-left:20;
 	display:inline-block;
 	background-color: #f57a7a;
-	width:150px;
-	height:150px;
+	width:130px;
+	height:130px;
 	border-radius:5%;
 	margin-bottom:10;
 	transition: 0.5s;
