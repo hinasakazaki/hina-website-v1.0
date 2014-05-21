@@ -9,3 +9,14 @@
 	margin-left:5;
 	margin-right:0;
 }
+
+#footer {
+	background-color: #ebe4e8;
+	width:100%;
+	padding-top:10;
+    padding-bottom:10;
+   	padding-left:50;
+   	color: #ba3747;
+   	bottom:0;
+   	z-index:5;
+}

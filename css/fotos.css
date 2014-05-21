@@ -9,11 +9,18 @@
 }
 
 #button-container {
+    position:relative;
     vertical-align: center;
     text-align: center;
-    padding-left:500;
+    width:100%;
+    margin-left:100;
+    margin-right:100;
+    margin-top:10;
+    margin-bottom:10;
 }
 #button {
+    margin-top:30;
+    position:relative;
     vertical-align: center;
     text-align: center;
     width:150;
@@ -68,7 +75,7 @@ img.scaled {
 }
 
 #caption {
-    border-radius:5%;
+    border-radius:1%;
     background-color: #fac461;
     margin-top:30;
     margin-left:30;
@@ -81,6 +88,7 @@ img.scaled {
     bottom:0;
     font-size:16;
     text-align: left;
+    vertical-align: center;
 }
 
 
