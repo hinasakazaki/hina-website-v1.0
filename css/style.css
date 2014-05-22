@@ -115,23 +115,12 @@ body {
 	color:inherit;
 }
 
-#text {
-	padding-top:210;
-	float:right;
-	margin-left:10;
-	margin-right:50;
-	font-size: 16px;
-	line-height:22px;
-	display:inline-block;
-
-}
-
 #box-wrapper {
 	font-size:50;
 	font-family: 'Oswald', sans-serif;
 	padding-top:210;
 	margin-left:50;
-	display:inline-block;
+	display: inline-block;
 }
 
 .red-block {
@@ -258,16 +247,27 @@ body {
 
 
 
+/*#text {
+	padding-top:210;
+	margin-left:400;
+	font-size: 16px;
+	line-height:22px;
+	float:left;
+}
+*/
 #brown {
+	margin-left:400;
+	position:absolute;
+	font-size:16px;
+	display:inline-block;
+	top:210;
 	background-color: #f6f0ee;
-	width: 500px;
 	border-radius: 2%;
-	height: 880px;
 	padding-top:30;
 	padding-left:30;
 	padding-right:30;
 	padding-bottom:30;
-	color: #ba3747;;
+	color: #ba3747;
 }
 
 #footer {
