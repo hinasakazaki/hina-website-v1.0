@@ -246,16 +246,8 @@ body {
 }
 
 
-
-/*#text {
-	padding-top:210;
-	margin-left:400;
-	font-size: 16px;
-	line-height:22px;
-	float:left;
-}
-*/
 #brown {
+	height:880;
 	margin-left:400;
 	position:absolute;
 	font-size:16px;
