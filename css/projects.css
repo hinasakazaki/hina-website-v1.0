@@ -160,6 +160,14 @@ body {
 
 }
 
+.hinerz {
+	position:absolute;
+	z-index:1;
+}
+.hinerz:hover {
+	transition: opacity 0.15s linear;
+	opacity:0.5;
+}
 
 .red-block {
 	padding-top:20;
@@ -184,8 +192,6 @@ body {
 	background-color: #dbc5ba;
 }
 .redtext{
-	transition: opacity 0.15s linear;
-	opacity:0.5;
 	position: absolute;
 	text-align:center;
 	width:300px;
@@ -224,8 +230,6 @@ body {
 }
 
 .yellowtext {
-	transition: opacity 0.15s linear;
-	opacity:0.5;
 	position: absolute;
 	text-align:center;
 	width:300px;
@@ -262,8 +266,6 @@ body {
 }
 
 .pinktext {
-	transition: opacity 0.15s linear;
-	opacity:0.5;
 	position: absolute;
 	text-align:center;
 	width:300px;
@@ -309,21 +311,6 @@ body {
 
 }
 
-/*#brown {
-	height:880;
-	margin-left:400;
-	position:absolute;
-	font-size:16px;
-	display:inline-block;
-	top:210;
-	background-color: #f6f0ee;
-	border-radius: 2%;
-	padding-top:30;
-	padding-left:30;
-	padding-right:30;
-	padding-bottom:30;
-	color: #ba3747;
-}*/
 
 .title {
 	font-family: 'Oswald', sans-serif;
