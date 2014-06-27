@@ -115,12 +115,24 @@ body {
 	color:inherit;
 }
 
+#photo-wrapper{
+	background-color: #dbc5ba;
+	border-radius:2%;
+}
+#photobox{
+	display:inline-block;
+	padding:10px;
+	text-align: center;
+	vertical-align: center;
+}
+
 #box-wrapper {
 	font-size:50;
 	font-family: 'Oswald', sans-serif;
 	padding-top:210;
 	margin-left:50;
 	display: inline-block;
+	width:300;
 }
 
 .red-block {
