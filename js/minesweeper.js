@@ -32,7 +32,7 @@ function validate(){
 	for (i = 0; i < numCols*numRows; i++ ) {
 		cell = $('.board').find('#'+i);
 		if (cell.hasClass('blank') && !cell.hasClass('bomb')) {
-			$('#result').text("YOU DIDN'T FINISH");
+			$('#result').text("FINISH PLS");
 			return;
 		}
 	}
