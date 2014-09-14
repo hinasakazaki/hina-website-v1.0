@@ -91,7 +91,7 @@
 /*ingame */
 
 table {
-	margin-left:115;
+	margin-left:110;
 	margin-top:30;
     border-collapse:collapse;
 }
@@ -135,16 +135,16 @@ td {
 }
 
 .bomb-revealed{
-	background-color: red;
+	background-color: #f24949;
 }
 
 #result{
 	vertical-align: center;
 	margin-left:70;
-	margin-top:30;
+	margin-top:60;
 	text-align: center;
 	font-size:100;
 	font-family: 'Oswald', sans-serif;
-	color:red;
+	color:#1b0202;
 	position:absolute;
 }

@@ -1,3 +1,6 @@
+/*
+Reference: tim5046 https://github.com/tim5046/projectOdin/tree/master/Javascript/Minesweeper*/
+
 $(document).ready(function(){
 
   	numCols = 8;
@@ -95,7 +98,6 @@ function setBombs(x,y){
 
 
 function checkCell(id){
-	//this function checks whether a box that was clicked contains a bomb or not
     cell = $('.board').find('#'+id);
 	console.log("at the stage of checkcell" + id);
 
@@ -113,13 +115,13 @@ function checkCell(id){
 
         if (id % numCols === 0){
             adjacent=[(id - 1 - numCols),(id - numCols),(id-1),(id-1+numCols),(id+numCols)];           
-        } else if (((id-1) % numCols === 0) || id == 1){ //left side of board
+        } else if (((id-1) % numCols === 0) || id == 1){ 
             adjacent=[(id - numCols),((id+1)-numCols),(id+1),(id+numCols),(id+1+numCols)];            
-        } else if (id < numCols){ //top row of board
+        } else if (id < numCols){ 
            adjacent=[(id-1),(id+1),(id-1+numCols),(id+numCols),(id+1+numCols)];             
-        } else if ((((numCols*numRows)-numCols) < id) && id < (numCols*numRows)) { //bottom row of board
+        } else if ((((numCols*numRows)-numCols) < id) && id < (numCols*numRows)) { 
            adjacent=[(id - 1 - numCols),(id - numCols),((id+1)-numCols),(id-1),(id+1)];             
-        } else { //not on top row, bottom row, left or right
+        } else { 
            adjacent=[(id - 1 - numCols),(id - numCols),((id+1)-numCols),(id-1),(id+1),(id-1+numCols),(id+numCols),(id+1+numCols)]; 
         } 
         
