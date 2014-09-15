@@ -152,16 +152,6 @@ function checkCell(id){
         }
 
     }
-    var j = 0; 
-    for (i = 0; i < numCols*numRows; i++ ) {
-        cell = $('.board').find('#'+i);
-        if (!cell.hasClass('blank') && !cell.hasClass('bomb')) {
-            j++;
-        } 
-    }
-    if (j == (numCols*numRows - 10)) {
-        $('#result').text("GOOD JOB");
-    }
 }
 
 
