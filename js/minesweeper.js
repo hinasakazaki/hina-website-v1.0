@@ -36,7 +36,10 @@ function validate(){
 			return;
 		}
 	}
-	$('#result').text("GOOD JOB");
+    if ($('#result').text().length == 0){
+        $('#result').text("GOOD JOB");
+    }
+	
 }
 
 function restartGame() {
@@ -148,6 +151,16 @@ function checkCell(id){
             $(cell).addClass('clicked');    
         }
 
+    }
+    var j = 0; 
+    for (i = 0; i < numCols*numRows; i++ ) {
+        cell = $('.board').find('#'+i);
+        if (!cell.hasClass('blank') && !cell.hasClass('bomb')) {
+            j++;
+        } 
+    }
+    if (j == (numCols*numRows - 10)) {
+        $('#result').text("GOOD JOB");
     }
 }
 
