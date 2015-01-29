@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     url(r'^comix/', views.comix),
     url(r'^projects/', views.projects),
     url(r'^contact/', views.contact),
+     url(r'^fotos/', views.fotos),
     # url(r'^admin/', view),
 
     # url(r'^index/', include('index.urls')),

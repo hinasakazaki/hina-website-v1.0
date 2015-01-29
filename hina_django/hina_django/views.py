@@ -35,3 +35,8 @@ def index(request):
 	template = loader.get_template("index.html")
 	context = RequestContext(request, {})
 	return HttpResponse(template.render(context))
+
+def fotos(request):
+	template = loader.get_template("fotos.html")
+	context = RequestContext(request, {})
+	return HttpResponse(template.render(context))
